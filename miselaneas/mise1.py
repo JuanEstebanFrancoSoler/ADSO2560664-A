@@ -1,0 +1,6 @@
+segundos=int(input("ingrese los segundos acordados"))
+minuto=(segundos/60)
+hora=(minuto/60)
+print("segundos", segundos)
+print("minutos", minuto)
+print("hora", hora)
