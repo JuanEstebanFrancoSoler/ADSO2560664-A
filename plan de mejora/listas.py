@@ -23,18 +23,37 @@ print(listaA)                       #remover datos de una lista
 #ejercicio 4
 
 
-l=[0, 10 , 20 ,30 ,40 ,50 ,60 ,70 ,80]
-print(l[0:2])
-print(l[2:-2])                                                  #ejercicio explicativo rebanadas
-print(l[3:])
-print(l[:3])
+lista=[0, 10 , 20 ,30 ,40 ,50 ,60 ,70 ,80]
+for i in range(0,lista):
+
+    print(i)
+    
+print(lista[0:2])
+print(lista[2:-2])                                                  #ejercicio explicativo rebanadas
+print(lista[3:])
+print(lista[:3])
 
 
 #ejercicio 5
+import random
+lista=[4, 15, 7]
+ 
+for i in range(1,20,3):
+    lista.append(i)
+    print(lista)
+    
+ju=[1,2,10,8,9]
+lista=ju[::-1]
+print(lista)
 
-x=[4, 15, 7]
-a=[1, 2]
-r=a+x                                                           #libro aprende a programar con python seccion listas
-print(a)
-print(x)
-print(r)
+
+for i in range(len(ju)-1,-1,-1):
+    print(ju[i],end="-")
+    
+while True:
+    for i in range(0,6):
+        lista.append(i)
+        print(lista)   
+    
+
+    

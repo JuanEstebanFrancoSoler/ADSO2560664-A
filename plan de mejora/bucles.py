@@ -3,7 +3,7 @@
 numero=0
 suma=0                                  #ejercicio pagina 126 "ejercicio explicativo"
 while numero !=7:                             #python 3 curso practico 
-    numero=numero+0.1                       
+    numero=numero+1.0                    
     suma=suma+numero
 print("la suma de todos los numeros es:", suma )
 
@@ -49,5 +49,5 @@ for i in range(3):
 for i in range(0,3):
     print("i",i ,"-->j ", end="")                               #ejercicio explicativo 
     for j in range(8):                                          #belearn libros =python
-        print("{o:2d}".format(j),end="")
+        print(j,end="")
     print()
